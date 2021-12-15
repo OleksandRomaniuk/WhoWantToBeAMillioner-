@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/emptybackground" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#29DDFF"
+        android:clickable="false"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:endColor="#0DB8F8"
+        android:minHeight="?attr/actionBarSize"
+        android:startColor="#03A9F4"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="453dp"
+        android:layout_height="48dp"
+        android:text="Додаткові налаштування"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="156dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/rectangle_rounded_some"
+        android:bufferType="normal"
+
+        android:text="Музика"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+    <Button
+        android:id="@+id/button_newsongs"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/set_but"
+        android:text="Сучасна" />
+
+
+    <Button
+        android:id="@+id/button_classicmusic"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/set_but2"
+        android:text="Класична" />
+
+    <Button
+        android:id="@+id/button_stopmusic"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/set_but3"
+        android:text="Зупинити музику " />
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/set_but4"
+        android:text="Скинути налаштування " />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
